@@ -22,8 +22,8 @@ function punkt(Pk){
 
 
 function operation(Op){
-    if (ergebnis.innerHTML == "0" || ergebnis.innerHTML == ""){
-        ergebnis.innerHTML = ""
+    if (ergebnis.innerHTML == "0"){
+        ergebnis.innerHTML = 0
     } else if(ergebnis.innerHTML.slice(-1)==Op){
         ergebnis.innerHTML += ""
     } else ergebnis.innerHTML += Op
